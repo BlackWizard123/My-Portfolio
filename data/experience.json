@@ -1,0 +1,57 @@
+[
+  {
+    "company": "Your Current Company",
+    "role": "Associate Software Engineer",
+    "duration": "2023 – Present",
+    "logo": "assets/companies/techm.png",
+    "highlights": [
+      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
+      "Designed scalable backend services using Python and FastAPI",
+      "Worked on RAG-based systems for large unstructured documents"
+    ]
+  },
+  {
+    "company": "Your Current Company",
+    "role": "Associate Software Engineer",
+    "duration": "2023 – Present",
+    "logo": "assets/companies/techm.png",
+    "highlights": [
+      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
+      "Designed scalable backend services using Python and FastAPI",
+      "Worked on RAG-based systems for large unstructured documents"
+    ]
+  },
+  {
+    "company": "Your Current Company",
+    "role": "Associate Software Engineer",
+    "duration": "2023 – Present",
+    "logo": "assets/companies/techm.png",
+    "highlights": [
+      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
+      "Designed scalable backend services using Python and FastAPI",
+      "Worked on RAG-based systems for large unstructured documents"
+    ]
+  },
+  {
+    "company": "Your Current Company",
+    "role": "Associate Software Engineer",
+    "duration": "2023 – Present",
+    "logo": "assets/companies/techm.png",
+    "highlights": [
+      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
+      "Designed scalable backend services using Python and FastAPI",
+      "Worked on RAG-based systems for large unstructured documents"
+    ]
+  },
+  {
+    "company": "Your Current Company",
+    "role": "Associate Software Engineer",
+    "duration": "2023 – Present",
+    "logo": "assets/companies/techm.png",
+    "highlights": [
+      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
+      "Designed scalable backend services using Python and FastAPI",
+      "Worked on RAG-based systems for large unstructured documents"
+    ]
+  }
+]

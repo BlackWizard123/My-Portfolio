@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rag-architecture",
+    "title": "Designing a RAG Architecture for Large Documents",
+    "date": "2025-01-10",
+    "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents."
+  },
+  {
+    "id": "kyc-genai",
+    "title": "Building a GenAI-powered KYC Pipeline",
+    "date": "2025-01-05",
+    "summary": "How I designed an automated KYC and credibility analysis system using GenAI."
+  },
+  {
+    "id": "rag-architecture",
+    "title": "Designing a RAG Architecture for Large Documents",
+    "date": "2025-01-10",
+    "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents."
+  },
+  {
+    "id": "kyc-genai",
+    "title": "Building a GenAI-powered KYC Pipeline",
+    "date": "2025-01-05",
+    "summary": "How I designed an automated KYC and credibility analysis system using GenAI."
+  },
+  {
+    "id": "rag-architecture",
+    "title": "Designing a RAG Architecture for Large Documents",
+    "date": "2025-01-10",
+    "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents."
+  },
+  {
+    "id": "kyc-genai",
+    "title": "Building a GenAI-powered KYC Pipeline",
+    "date": "2025-01-05",
+    "summary": "How I designed an automated KYC and credibility analysis system using GenAI."
+  }
+]

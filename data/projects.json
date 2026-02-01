@@ -1,0 +1,74 @@
+[
+  {
+    "id": "credimate",
+    "title": "Credimate",
+    "description": "GenAI-based KYC and credibility analysis system for automated financial onboarding.",
+    "tech": ["Python", "FastAPI", "Azure OpenAI", "RAG", "PostgreSQL"],
+    "highlight": true,
+    "details": [
+    "Built multi-stage document validation pipeline",
+    "Implemented RAG for financial insights",
+    "Designed scalable backend architecture"
+  ]
+  },
+  {
+    "id": "rag-3gpp",
+    "title": "RAG on 3GPP Specifications",
+    "description": "Built a Retrieval-Augmented Generation pipeline to query large 3GPP specification documents efficiently.",
+    "tech": ["Python", "RAG", "Embeddings", "Vector Search"],
+    "highlight": false,
+    "details": [
+    "Built multi-stage document validation pipeline",
+    "Implemented RAG for financial insights",
+    "Designed scalable backend architecture"
+  ]
+  },
+  {
+    "id": "credimate",
+    "title": "Credimate",
+    "description": "GenAI-based KYC and credibility analysis system for automated financial onboarding.",
+    "tech": ["Python", "FastAPI", "Azure OpenAI", "RAG", "PostgreSQL"],
+    "highlight": true,
+    "details": [
+    "Built multi-stage document validation pipeline",
+    "Implemented RAG for financial insights",
+    "Designed scalable backend architecture"
+  ]
+  },
+  {
+    "id": "rag-3gpp",
+    "title": "RAG on 3GPP Specifications",
+    "description": "Built a Retrieval-Augmented Generation pipeline to query large 3GPP specification documents efficiently.",
+    "tech": ["Python", "RAG", "Embeddings", "Vector Search"],
+    "highlight": false,
+    "details": [
+    "Built multi-stage document validation pipeline",
+    "Implemented RAG for financial insights",
+    "Designed scalable backend architecture"
+  ]
+  },
+  {
+    "id": "credimate",
+    "title": "Credimate",
+    "description": "GenAI-based KYC and credibility analysis system for automated financial onboarding.",
+    "tech": ["Python", "FastAPI", "Azure OpenAI", "RAG", "PostgreSQL"],
+    "highlight": true,
+    "details": [
+    "Built multi-stage document validation pipeline",
+    "Implemented RAG for financial insights",
+    "Designed scalable backend architecture"
+  ]
+  },
+  {
+    "id": "rag-3gpp",
+    "title": "RAG on 3GPP Specifications",
+    "description": "Built a Retrieval-Augmented Generation pipeline to query large 3GPP specification documents efficiently.",
+    "tech": ["Python", "RAG", "Embeddings", "Vector Search"],
+    "highlight": false,
+    "details": [
+    "Built multi-stage document validation pipeline",
+    "Implemented RAG for financial insights",
+    "Designed scalable backend architecture"
+  ]
+  }
+]

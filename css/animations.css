@@ -1,0 +1,170 @@
+/* animations.css */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+
+/* .card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.project-card,
+.skill-card,
+.experience-card,
+.cert-card,
+.blog-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover,
+.skill-card:hover,
+.experience-card:hover,
+.cert-card:hover,
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+} */
+
+
+/* Base card state */
+.project-card,
+.skill-card,
+.experience-card,
+.cert-card,
+.blog-card {
+  position: relative;
+  background: var(--surface);
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    background 0.35s ease;
+}
+
+/* Glow layer */
+.project-card::before,
+.skill-card::before,
+.experience-card::before,
+.cert-card::before,
+.blog-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(56, 189, 248, 0.35),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+/* Hover effect */
+.project-card:hover,
+.skill-card:hover,
+.experience-card:hover,
+.cert-card:hover,
+.blog-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.project-card:hover::before,
+.skill-card:hover::before,
+.experience-card:hover::before,
+.cert-card:hover::before,
+.blog-card:hover::before {
+  opacity: 1;
+}
+
+.project-card::after,
+.skill-card::after,
+.experience-card::after,
+.cert-card::after,
+.blog-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(
+    90deg,
+    var(--accent),
+    #a855f7
+  );
+  transition: width 0.35s ease;
+  border-radius: 0 0 10px 10px;
+}
+
+.project-card:hover::after,
+.skill-card:hover::after,
+.experience-card:hover::after,
+.cert-card:hover::after,
+.blog-card:hover::after {
+  width: 100%;
+}
+
+.leetcode-ring {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background:
+    conic-gradient(
+      var(--accent) 0deg,
+      #a855f7 270deg,
+      rgba(255,255,255,0.1) 270deg
+    );
+  position: relative;
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+.leetcode-ring::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  background: var(--bg);
+  border-radius: 50%;
+}
+
+.leetcode-count {
+  position: relative;
+  font-size: 2.6rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.leetcode-label {
+  position: relative;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 rgba(56,189,248,0);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(56,189,248,0.4);
+  }
+}
+
+
+

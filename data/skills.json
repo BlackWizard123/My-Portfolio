@@ -1,0 +1,8 @@
+{
+  "Languages": ["Python", "JavaScript", "SQL"],
+  "Backend": ["FastAPI", "Flask", "REST APIs"],
+  "Frontend": ["HTML", "CSS", "Vanilla JS","Vanilla JS","Vanilla JS","Vanilla JS"],
+  "GenAI": ["RAG", "Prompt Engineering", "Azure OpenAI"],
+  "Databases": ["PostgreSQL", "MongoDB"],
+  "Tools": ["Git", "GitHub", "Docker"]
+}
