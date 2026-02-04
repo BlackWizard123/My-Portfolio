@@ -6,6 +6,7 @@ import { renderExperience } from "./renderExperience.js";
 import { renderCertifications } from "./renderCertifications.js";
 import { renderFooter } from "./renderFooter.js";
 import { renderBlogs } from "./renderBlogs.js";
+import { renderMoments } from "./renderMoments.js";
 import { loadBlog } from "./blogLoader.js";
 import { renderLeetCode } from "./renderLeetcode.js";
 
@@ -17,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderProjects();
   renderExperience();
   renderCertifications();
+  renderMoments();
   renderBlogs();
   renderFooter();
 });

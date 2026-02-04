@@ -24,3 +24,22 @@ a:hover {
   color: var(--accent);
 }
 
+/* Prevent background scroll when modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
+/* Grid inside skills modal */
+.skills-modal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .skills-modal-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+

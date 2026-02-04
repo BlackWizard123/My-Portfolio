@@ -1,0 +1,17 @@
+[
+  {
+    "image": "assets/moments/hackathon.jpg",
+    "hashtag": "#HackathonLife",
+    "description": "Built a GenAI-based KYC system in a 72-hour hackathon, collaborating with an amazing team and shipping a full demo."
+  },
+  {
+    "image": "assets/moments/123.jpg",
+    "hashtag": "#ProblemSolving",
+    "description": "Crossed 400+ problems on LeetCode, focusing heavily on DP, backtracking, and graphs."
+  },
+  {
+    "image": "assets/moments/234.png",
+    "hashtag": "#LearningNeverStops",
+    "description": "Attended a tech meetup focused on AI and cloud-native systems."
+  }
+]

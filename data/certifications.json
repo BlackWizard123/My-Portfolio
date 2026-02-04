@@ -3,42 +3,97 @@
     "title": "Microsoft Azure AI Engineer Associate",
     "issuer": "Microsoft",
     "year": "2024",
-    "badge": "assets/certifications/azure-ai.png"
-  },
-  {
-    "title": "AWS Cloud Practitioner",
-    "issuer": "Amazon Web Services",
-    "year": "2023",
-    "badge": "assets/certifications/aws-cloud.png"
-  },
-  {
-    "title": "Microsoft Azure AI Engineer Associate",
-    "issuer": "Microsoft",
-    "year": "2024",
-    "badge": "assets/certifications/azure-ai.png"
-  },
-  {
-    "title": "AWS Cloud Practitioner",
-    "issuer": "Amazon Web Services",
-    "year": "2023",
-    "badge": "assets/certifications/aws-cloud.png"
+    "badge": "assets/certifications/badges/azure-ai.png",
+    "providerAbout": "Microsoft Azure certifications validate cloud and AI engineering skills.",
+    "certificateId": "ABC123XYZ",
+    "issuedDate": "March 2024",
+    "expiryDate": "March 2026",
+    "about": "This certification validates the ability to design, build, and deploy AI solutions using Azure services.",
+    "skillset": [
+      "Azure OpenAI",
+      "Prompt Engineering",
+      "Cognitive Search",
+      "RAG Pipelines"
+    ],
+    "certificateUrl": "https://learn.microsoft.com/verify",
+    "image": "assets/certifications/certs/123.png"
   },
   {
     "title": "Microsoft Azure AI Engineer Associate",
     "issuer": "Microsoft",
     "year": "2024",
-    "badge": "assets/certifications/azure-ai.png"
-  },
-  {
-    "title": "AWS Cloud Practitioner",
-    "issuer": "Amazon Web Services",
-    "year": "2023",
-    "badge": "assets/certifications/aws-cloud.png"
+    "badge": "assets/certifications/badges/azure-ai.png",
+    "providerAbout": "Microsoft Azure certifications validate cloud and AI engineering skills.",
+    "certificateId": "ABC123XYZ",
+    "issuedDate": "March 2024",
+    "expiryDate": "March 2026",
+    "about": "This certification validates the ability to design, build, and deploy AI solutions using Azure services.",
+    "skillset": [
+      "Azure OpenAI",
+      "Prompt Engineering",
+      "Cognitive Search",
+      "RAG Pipelines"
+    ],
+    "certificateUrl": "https://learn.microsoft.com/verify",
+    "image": "assets/certifications/certs/azure-ai.png"
   },
   {
     "title": "Microsoft Azure AI Engineer Associate",
     "issuer": "Microsoft",
     "year": "2024",
-    "badge": "assets/certifications/azure-ai.png"
+    "badge": "assets/certifications/badges/azure-ai.png",
+    "providerAbout": "Microsoft Azure certifications validate cloud and AI engineering skills.",
+    "certificateId": "ABC123XYZ",
+    "issuedDate": "March 2024",
+    "expiryDate": "March 2026",
+    "about": "This certification validates the ability to design, build, and deploy AI solutions using Azure services.",
+    "skillset": [
+      "Azure OpenAI",
+      "Prompt Engineering",
+      "Cognitive Search",
+      "RAG Pipelines"
+    ],
+    "certificateUrl": "https://learn.microsoft.com/verify",
+    "image": "assets/certifications/certs/azure-ai.png"
+  },
+  {
+    "title": "Microsoft Azure AI Engineer Associate",
+    "issuer": "Microsoft",
+    "year": "2024",
+    "badge": "assets/certifications/badges/azure-ai.png",
+    "providerAbout": "Microsoft Azure certifications validate cloud and AI engineering skills.",
+    "certificateId": "ABC123XYZ",
+    "issuedDate": "March 2024",
+    "expiryDate": "March 2026",
+    "about": "This certification validates the ability to design, build, and deploy AI solutions using Azure services.",
+    "skillset": [
+      "Azure OpenAI",
+      "Prompt Engineering",
+      "Cognitive Search",
+      "RAG Pipelines"
+    ],
+    "certificateUrl": "https://learn.microsoft.com/verify",
+    "image": "assets/certifications/certs/azure-ai.png"
+  },
+  {
+    "title": "Microsoft Azure AI Engineer Associate",
+    "issuer": "Microsoft",
+    "year": "2024",
+    "badge": "assets/certifications/badges/azure-ai.png",
+    "providerAbout": "Microsoft Azure certifications validate cloud and AI engineering skills.",
+    "certificateId": "ABC123XYZ",
+    "issuedDate": "March 2024",
+    "expiryDate": "March 2026",
+    "about": "This certification validates the ability to design, build, and deploy AI solutions using Azure services.",
+    "skillset": [
+      "Azure OpenAI",
+      "Prompt Engineering",
+      "Cognitive Search",
+      "RAG Pipelines"
+    ],
+    "certificateUrl": "https://learn.microsoft.com/verify",
+    "image": "assets/certifications/certs/azure-ai.png"
   }
 ]
+
+

@@ -5,10 +5,12 @@ export function openModal(htmlContent) {
 
   content.innerHTML = htmlContent;
   modal.classList.remove("hidden");
+  document.body.classList.add("modal-open");
 
   function close() {
     modal.classList.add("hidden");
     content.innerHTML = "";
+    document.body.classList.remove("modal-open");
     document.removeEventListener("keydown", escHandler);
   }
 

@@ -1,8 +1,243 @@
 {
-  "Languages": ["Python", "JavaScript", "SQL"],
-  "Backend": ["FastAPI", "Flask", "REST APIs"],
-  "Frontend": ["HTML", "CSS", "Vanilla JS","Vanilla JS","Vanilla JS","Vanilla JS"],
-  "GenAI": ["RAG", "Prompt Engineering", "Azure OpenAI"],
-  "Databases": ["PostgreSQL", "MongoDB"],
-  "Tools": ["Git", "GitHub", "Docker"]
+  "Languages": [
+    {
+    "name": "Python",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "Java",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "C++",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  }],
+
+  "Backend": [
+    {
+    "name": "Python",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "Java",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "C++",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  }],
+  "Frontend": [
+    {
+    "name": "Python",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "Java",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "C++",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  }],
+  "GenAI": [
+    {
+    "name": "Python",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "Java",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "C++",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  }],
+  "Databases": [
+    {
+    "name": "Python",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "Java",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "C++",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  }],
+  "Tools": [
+    {
+    "name": "Python",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "Java",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  },
+  {
+    "name": "C++",
+    "category": "Backend / AI",
+    "level": "Advanced",
+    "details": [
+      "FastAPI, Flask",
+      "Async programming",
+      "Data processing pipelines",
+      "RAG-based systems"
+    ],
+    "tools": ["FastAPI", "Flask", "Pydantic"],
+    "usedIn": ["Credimate", "KYC System"]
+  }]
 }

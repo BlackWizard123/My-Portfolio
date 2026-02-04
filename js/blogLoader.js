@@ -22,6 +22,7 @@ export async function loadBlog(id) {
   function closeModal() {
     modal.classList.add("hidden");
     content.innerHTML = "";
+    document.body.classList.remove("modal-open");
     document.removeEventListener("keydown", escHandler);
   }
 }

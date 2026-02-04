@@ -30,7 +30,7 @@
     "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents."
   },
   {
-    "id": "kyc-genai",
+    "id": "credimate",
     "title": "Building a GenAI-powered KYC Pipeline",
     "date": "2025-01-05",
     "summary": "How I designed an automated KYC and credibility analysis system using GenAI."
