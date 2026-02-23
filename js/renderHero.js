@@ -23,7 +23,7 @@ export async function renderHero() {
     </div>
 
     <div class="hero-photo">
-      <img src="assets/profile/me.jpg" alt="Hariharan C" />
+      <img src="assets/profile/me.png" alt="Hariharan C" />
     </div>
 
   </div>
