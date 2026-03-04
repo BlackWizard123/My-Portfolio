@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="assets/favicon/favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hariharan C | Portfolio</title>
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+    <header class="fade-up" id="navbar"></header>
+
+    <main id="content">
+        <section class="fade-up" id="hero"></section>
+        <section class="fade-up" id="leetcode"></section>
+        <section class="fade-up" id="skills"></section>
+        <section class="fade-up" id="projects"></section>
+        <section class="fade-up" id="experience"></section>
+        <section class="fade-up" id="academics"></section>
+        <section class="fade-up" id="certifications"></section>
+        <section class="fade-up" id="moments"></section>
+        <section class="fade-up" id="blogs"></section>
+        <footer class="fade-up" id="footer"></footer>
+    </main>
+
+    <footer class="fade-up" id="footer"></footer>
+
+    <div id="blogModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button id="closeModal">✕</button>
+            <article id="modalBlogContent"></article>
+        </div>
+    </div>
+
+    <button id="backToTop" aria-label="Back to top">
+    ↑
+    </button>
+
+    <div class="section-navigator">
+        <div class="navigator-menu">
+            <a href="#hero">Home</a>
+            <a href="#leetcode">LeetCode</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#academics">Academics</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#moments">Moments</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#footer">Contacts</a>
+        </div>
+
+        <button class="navigator-toggle fade-up">
+            <span class="nav-icon">☰</span>
+            <span class="nav-label">Section Navigator</span>
+        </button>
+    </div>
+
+    <div id="resumeToast" class="toast">
+    <strong>Thank you!</strong><br />
+    Eagerly looking forward to connecting with you 😊
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

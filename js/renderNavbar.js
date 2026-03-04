@@ -15,7 +15,7 @@ export function renderNavbar() {
           <a href="#experience">Experience</a>
           <a href="#certifications">Certifications</a>
           <a href="#footer">Contact</a>
-          <a href="assets/resume/resume.pdf" class="nav-resume" id="resumeBtn">Resume</a>
+          <a href="assets/resume/hariharan_c.pdf" class="nav-resume" id="resumeBtn">Resume</a>
         </div>
 
       </nav>

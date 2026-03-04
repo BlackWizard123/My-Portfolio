@@ -91,6 +91,18 @@ function closeNavigatorDelayed() {
 navigator.addEventListener("mouseenter", openNavigator);
 navigator.addEventListener("mouseleave", closeNavigatorDelayed);
 
+window.addEventListener("DOMContentLoaded", () => {
+
+  const elements = document.querySelectorAll(".fade-up");
+
+  setTimeout(() => {
+    elements.forEach(el => el.classList.add("show"));
+  }, 300);
+
+});
+
+
+
 
 
 

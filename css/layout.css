@@ -2,6 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.0s ease, transform 1.0s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 #backToTop {
   position: fixed;
   right: 1.5rem;

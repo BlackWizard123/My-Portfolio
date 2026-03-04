@@ -1,0 +1,97 @@
+body{
+  transition:opacity 0.4s ease;
+}
+
+body{
+  margin:0;
+  height:100vh;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  background:#0f172a;
+
+  background-image: url("data:image/svg+xml,%3Csvg width='800' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.04' stroke-width='2'%3E%3Cpath d='M50 100 C200 50, 400 150, 600 80'/%3E%3Cpath d='M100 300 C300 200, 500 400, 700 300'/%3E%3Ccircle cx='650' cy='150' r='40'/%3E%3Ccircle cx='150' cy='450' r='60'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+;
+
+  font-family:Poppins,sans-serif;
+}
+
+.intro{
+  text-align:center;
+}
+
+/* name */
+
+.intro-name{
+  font-size:2.6rem;
+  font-weight:700;
+
+  background:linear-gradient(
+    90deg,
+    #38bdf8,
+    #a855f7
+  );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+
+  margin-bottom:8px;
+}
+
+/* role */
+
+.intro-role{
+  color:#9ca3af;
+  margin-bottom:40px;
+}
+
+/* progress line */
+
+.intro-line{
+  width:260px;
+  height:2px;
+
+  background:rgba(255,255,255,0.12);
+
+  margin:auto;
+  overflow:hidden;
+}
+
+.intro-progress{
+  height:100%;
+  width:0%;
+
+  background:linear-gradient(
+    90deg,
+    #38bdf8,
+    #a855f7
+  );
+
+  animation:lineLoad 2.5s ease forwards;
+}
+
+@keyframes lineLoad{
+  to{width:100%}
+}
+
+/* entering text */
+
+.intro-enter{
+  margin-top:18px;
+  font-size:0.85rem;
+  color:#9ca3af;
+
+  opacity:0;
+  animation:fadeText 0.6s ease forwards;
+  animation-delay:1.2s;
+}
+
+@keyframes fadeText{
+  to{
+    opacity:1;
+    transform:translateY(-2px);
+  }
+}
