@@ -2,11 +2,11 @@
   "email": "hariharandglhariharan@gmail.com",
   "secondaryEmail": "hari63502@gmail.com",
   "phone": "+91 93600 59578",
+  "location": "Bangalore, India",
   "links": [
-    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/hariharan-c-6b461b210/" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/hariharan-c-dev/" },
     { "name": "GitHub", "url": "https://github.com/BlackWizard123" },
     { "name": "LeetCode", "url": "https://leetcode.com/u/_Hariharan0912/" },
-    { "name": "Naukri", "url": "https://naukri.com/yourprofile" },
     { "name": "Medium", "url": "https://medium.com/@yourname" },
     { "name": "Credly", "url": "https://www.credly.com/users/hariharan_c" },
     { "name": "Reddit", "url": "https://reddit.com/u/yourname" },

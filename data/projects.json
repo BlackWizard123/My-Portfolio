@@ -1,74 +1,77 @@
 [
   {
-    "id": "credimate",
-    "title": "Credimate",
-    "description": "GenAI-based KYC and credibility analysis system for automated financial onboarding.",
-    "tech": ["Python", "FastAPI", "Azure OpenAI", "RAG", "PostgreSQL"],
+    "id": "meetiq",
+    "title": "MeetIQ — Agentic Meeting Intelligence",
+    "description": "AI-powered meeting intelligence platform that converts transcripts into structured insights, tasks, and automated workflows with Google Workspace integration.",
+    "longDescription": "Built a multi-agent pipeline for summarization, task extraction, and workload-based assignment from meeting transcripts. Integrated Google Workspace APIs (Sheets, Calendar, Tasks) for real-time automation and execution tracking. Deployed on Google Cloud Run with Docker, PostgreSQL, and GCS for scalable and secure operation.",
+    "tech": ["Python", "FastAPI", "LangGraph", "Vertex AI (Gemini)", "Google Workspace APIs", "Cloud Run", "PostgreSQL", "Docker", "GCS"],
     "highlight": true,
-    "details": [
-    "Built multi-stage document validation pipeline",
-    "Implemented RAG for financial insights",
-    "Designed scalable backend architecture"
-  ]
+    "hackathon": {
+      "name": "Hack2Skill × Google Cloud APAC Hackathon",
+      "rank": "Top 50",
+      "participants": "18,000+",
+      "prize": "$1,100 GCP Credits"
+    },
+    "github": "https://github.com/BlackWizard123/MeetIQ---Agentic-Meeting-Intelligence",
+    "live": null,
+    "image": "assets/projects/meetiq.png",
+    "category": "Agentic AI",
+    "status": "Completed"
   },
   {
-    "id": "rag-3gpp",
-    "title": "RAG on 3GPP Specifications",
-    "description": "Built a Retrieval-Augmented Generation pipeline to query large 3GPP specification documents efficiently.",
-    "tech": ["Python", "RAG", "Embeddings", "Vector Search"],
-    "highlight": false,
-    "details": [
-    "Built multi-stage document validation pipeline",
-    "Implemented RAG for financial insights",
-    "Designed scalable backend architecture"
-  ]
-  },
-  {
-    "id": "credimate",
-    "title": "Credimate",
-    "description": "GenAI-based KYC and credibility analysis system for automated financial onboarding.",
-    "tech": ["Python", "FastAPI", "Azure OpenAI", "RAG", "PostgreSQL"],
+    "id": "nl2sql",
+    "title": "Hybrid NL2SQL Engine with Semantic Fallback",
+    "description": "Intelligent query assistant combining SQL structured lookups with semantic vector retrieval for context-aware enterprise search.",
+    "longDescription": "Designed a hybrid search system supporting both structured SQL-based lookups and semantic vector-powered retrieval via ChromaDB for flexible query handling. Built a background sync service to keep the vector store aligned with PostgreSQL for zero-stale retrieval. Scalable backend built with FastAPI and LangChain.",
+    "tech": ["Python", "FastAPI", "LangChain", "PostgreSQL", "ChromaDB"],
     "highlight": true,
-    "details": [
-    "Built multi-stage document validation pipeline",
-    "Implemented RAG for financial insights",
-    "Designed scalable backend architecture"
-  ]
+    "hackathon": null,
+    "github": "https://github.com/BlackWizard123/Hybrid-NL2SQL-Engine",
+    "live": null,
+    "image": "assets/projects/nl2sql.png",
+    "category": "GenAI / Backend",
+    "status": "Archived"
   },
   {
-    "id": "rag-3gpp",
-    "title": "RAG on 3GPP Specifications",
-    "description": "Built a Retrieval-Augmented Generation pipeline to query large 3GPP specification documents efficiently.",
-    "tech": ["Python", "RAG", "Embeddings", "Vector Search"],
-    "highlight": false,
-    "details": [
-    "Built multi-stage document validation pipeline",
-    "Implemented RAG for financial insights",
-    "Designed scalable backend architecture"
-  ]
-  },
-  {
-    "id": "credimate",
-    "title": "Credimate",
-    "description": "GenAI-based KYC and credibility analysis system for automated financial onboarding.",
-    "tech": ["Python", "FastAPI", "Azure OpenAI", "RAG", "PostgreSQL"],
+    "id": "kyc-platform",
+    "title": "AI-Powered KYC & Financial Credibility Platform",
+    "description": "End-to-end AI platform automating KYC validation, financial document verification, and loan eligibility analysis using Azure AI.",
+    "longDescription": "Built using Flask and Azure Blob Storage to automate KYC validation, financial document verification, and loan eligibility analysis. Leveraged Azure AI Document Intelligence for OCR and template validation, implemented metadata-based tamper detection, and integrated Azure AI Search for hybrid vector retrieval to ground Azure OpenAI financial risk assessment. Generated structured downloadable PDF credibility reports. Built and deployed on Azure in 4 days.",
+    "tech": ["Python", "Flask", "Azure AI Document Intelligence", "Azure OpenAI", "Azure AI Search", "Azure Blob Storage"],
     "highlight": true,
-    "details": [
-    "Built multi-stage document validation pipeline",
-    "Implemented RAG for financial insights",
-    "Designed scalable backend architecture"
-  ]
+    "hackathon": null,
+    "github": "https://github.com/BlackWizard123/AI-based-Financial-Credibility-Analyser",
+    "live": null,
+    "image": "assets/projects/kyc.png",
+    "category": "GenAI / Cloud",
+    "status": "Archived"
   },
   {
-    "id": "rag-3gpp",
-    "title": "RAG on 3GPP Specifications",
-    "description": "Built a Retrieval-Augmented Generation pipeline to query large 3GPP specification documents efficiently.",
-    "tech": ["Python", "RAG", "Embeddings", "Vector Search"],
+    "id": "financial-risk-agent",
+    "title": "Financial Risk Classifier Agent",
+    "description": "AI-powered financial analysis agent that evaluates user-provided financial text and classifies risk levels using Google Gemini.",
+    "longDescription": "An agentic system that evaluates financial text input and classifies risk levels with structured insights and actionable improvement suggestions. Built using Google Gemini with structured tool calls.",
+    "tech": ["Python", "Google Gemini", "HTML", "Agentic AI"],
     "highlight": false,
-    "details": [
-    "Built multi-stage document validation pipeline",
-    "Implemented RAG for financial insights",
-    "Designed scalable backend architecture"
-  ]
+    "hackathon": null,
+    "github": "https://github.com/BlackWizard123/Track-1---Financial_Risk_Classifier_Agent",
+    "live": null,
+    "image": "assets/projects/financial-risk.png",
+    "category": "Agentic AI",
+    "status": "Completed"
+  },
+  {
+    "id": "medical-mcp-agent",
+    "title": "Medical MCP Agent",
+    "description": "AI medical assistant agent built with Google ADK + MCP + Gemini 1.5 Flash, answering disease queries using structured tool calls via Model Context Protocol.",
+    "longDescription": "Built an AI medical assistant using Google Agent Development Kit, Model Context Protocol (MCP), and Gemini 1.5 Flash. Answers disease queries using structured tool calls and deployed on Google Cloud Run.",
+    "tech": ["Python", "Google ADK", "MCP", "Gemini 1.5 Flash", "Google Cloud Run", "HTML"],
+    "highlight": false,
+    "hackathon": null,
+    "github": "https://github.com/BlackWizard123/Track-2---Medical_MCP_agent",
+    "live": null,
+    "image": "assets/projects/medical-mcp.png",
+    "category": "Agentic AI",
+    "status": "Completed"
   }
 ]

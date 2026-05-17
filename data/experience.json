@@ -1,57 +1,60 @@
 [
   {
-    "company": "Your Current Company",
-    "role": "Associate Software Engineer",
-    "duration": "2023 – Present",
-    "logo": "assets/companies/techm.png",
+    "company": "Tech Mahindra",
+    "role": "Agentic AI Engineer",
+    "officialTitle": "Associate Software Engineer",
+    "duration": "Mar 2024 – Present",
+    "location": "Bangalore, India",
+    "logo": "assets/companies/techm_logo.jpg",
+    "type": "Full-time",
     "highlights": [
-      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
-      "Designed scalable backend services using Python and FastAPI",
-      "Worked on RAG-based systems for large unstructured documents"
-    ]
+      "Designed an Agentic RAG system (LangChain, LangGraph, FAISS/ChromaDB) for automated 3GPP test case generation for a Tier-1 telecom operator, reducing manual authoring by 45%.",
+      "Built planning-based reasoning workflows decomposing complex telecom queries into structured subtasks, improving multi-step LLM inference accuracy by 30% and semantic retrieval precision by 35% via topic-segmented embeddings (AMF, SMF, Core Network).",
+      "Developed Flask backend orchestrating on-prem LLM inference (vLLM, OpenVINO) and cloud models (Hugging Face, Groq) for concurrent multi-model serving, reducing API cost by 25%.",
+      "Built a scalable async Python automation system (FastAPI, LangChain) for Rakuten, executing O-RAN SARF ID-based lock/unlock workflows via cron — processing hundreds of tickets concurrently, eliminating daily manual execution overhead."
+    ],
+    "techStack": ["Python", "LangChain", "LangGraph", "FAISS", "ChromaDB", "Flask", "FastAPI", "vLLM", "OpenVINO", "Groq", "HuggingFace"],
+    "achievements": [
+      "Highest Performance Rating for two consecutive years",
+      "3rd place in Microsoft × Tech Mahindra Ideathon (80+ teams)",
+      "6th place solo in Microsoft Agentic AI Hackathon"
+    ],
+    "clients": ["Rakuten (O-RAN Automation)", "Tier-1 Telecom Operator (3GPP/5G)"],
+    "github":null
   },
+
   {
-    "company": "Your Current Company",
-    "role": "Associate Software Engineer",
-    "duration": "2023 – Present",
-    "logo": "assets/companies/techm.png",
+    "company": "Indium Software",
+    "role": "Internship Trainee",
+    "officialTitle": "Internship Trainee",
+    "duration": "Mar 2023 – Jun 2023",
+    "location": "Chennai, Tamil Nadu, India",
+    "logo": "assets/companies/indium.png",
+    "type": "Internship",
     "highlights": [
-      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
-      "Designed scalable backend services using Python and FastAPI",
-      "Worked on RAG-based systems for large unstructured documents"
-    ]
-  },
-  {
-    "company": "Your Current Company",
-    "role": "Associate Software Engineer",
-    "duration": "2023 – Present",
-    "logo": "assets/companies/techm.png",
-    "highlights": [
-      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
-      "Designed scalable backend services using Python and FastAPI",
-      "Worked on RAG-based systems for large unstructured documents"
-    ]
-  },
-  {
-    "company": "Your Current Company",
-    "role": "Associate Software Engineer",
-    "duration": "2023 – Present",
-    "logo": "assets/companies/techm.png",
-    "highlights": [
-      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
-      "Designed scalable backend services using Python and FastAPI",
-      "Worked on RAG-based systems for large unstructured documents"
-    ]
-  },
-  {
-    "company": "Your Current Company",
-    "role": "Associate Software Engineer",
-    "duration": "2023 – Present",
-    "logo": "assets/companies/techm.png",
-    "highlights": [
-      "Built GenAI-powered document processing pipelines for KYC and financial onboarding",
-      "Designed scalable backend services using Python and FastAPI",
-      "Worked on RAG-based systems for large unstructured documents"
-    ]
+      "Completed an intensive hands-on training program covering Java, Python, MySQL, and modern web technologies.",
+      "Strengthened object-oriented programming concepts and built applications using Core Java and Python.",
+      "Worked on database design and management tasks using MySQL, including queries and relational database concepts.",
+      "Developed responsive web applications using HTML, CSS, JavaScript, React, and Node.js.",
+      "Gained real-world software development exposure through practical projects and mentorship from industry professionals."
+    ],
+    "techStack": [
+      "Java",
+      "Python",
+      "MySQL",
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "OOP"
+    ],
+    "achievements": [
+      "Successfully completed a comprehensive industry-oriented software development internship.",
+      "Built strong foundations in full-stack development and database management.",
+      "Collaborated in project-based learning environments simulating real-world development workflows."
+    ],
+    "clients": [],
+    "github":"https://github.com/BlackWizard123/Indium-Softwares---Internship"
   }
 ]

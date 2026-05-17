@@ -1,243 +1,214 @@
 {
-  "Languages": [
-    {
-    "name": "Python",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "Java",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "C++",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  }],
-
-  "Backend": [
-    {
-    "name": "Python",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "Java",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "C++",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  }],
-  "Frontend": [
-    {
-    "name": "Python",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "Java",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "C++",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  }],
   "GenAI": [
     {
-    "name": "Python",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "Java",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "C++",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  }],
+      "name": "LangChain",
+      "category": "AI Framework",
+      "level": "Advanced",
+      "details": ["RAG pipelines", "Multi-agent workflows", "Tool use", "Memory management"],
+      "tools": ["LangChain", "LangGraph", "LCEL", "Chroma", "FAISS"],
+      "usedIn": ["MeetIQ", "NL2SQL Engine", "3GPP RAG System", "O-RAN Automation"]
+    },
+    {
+      "name": "LangGraph",
+      "category": "AI Framework",
+      "level": "Advanced",
+      "details": ["Stateful agent graphs", "Multi-step reasoning", "Planning workflows"],
+      "tools": ["LangGraph", "LangChain", "Vertex AI"],
+      "usedIn": ["MeetIQ", "3GPP RAG System"]
+    },
+    {
+      "name": "Microsoft AutoGen",
+      "category": "Multi-Agent",
+      "level": "Intermediate",
+      "details": ["Multi-agent orchestration", "Agent collaboration"],
+      "tools": ["AutoGen", "Python"],
+      "usedIn": ["Enterprise AI Projects"]
+    },
+    {
+      "name": "HuggingFace",
+      "category": "ML / Embeddings",
+      "level": "Intermediate",
+      "details": ["Model inference", "Embeddings", "Transformers"],
+      "tools": ["Transformers", "Sentence-Transformers", "Inference API"],
+      "usedIn": ["3GPP RAG System"]
+    },
+    {
+      "name": "Prompt Engineering",
+      "category": "AI Techniques",
+      "level": "Advanced",
+      "details": ["Chain-of-thought", "Few-shot prompting", "System prompt design"],
+      "tools": ["OpenAI API", "Gemini", "Groq"],
+      "usedIn": ["All AI Projects"]
+    }
+  ],
+  "Inference": [
+    {
+      "name": "vLLM",
+      "category": "LLM Inference",
+      "level": "Advanced",
+      "details": ["On-prem LLM serving", "High-throughput inference", "Concurrent requests"],
+      "tools": ["vLLM", "Python", "CUDA"],
+      "usedIn": ["3GPP RAG System"]
+    },
+    {
+      "name": "OpenVINO",
+      "category": "LLM Inference",
+      "level": "Intermediate",
+      "details": ["On-prem model optimization", "Edge inference"],
+      "tools": ["OpenVINO", "Intel toolkits"],
+      "usedIn": ["3GPP RAG System"]
+    },
+    {
+      "name": "Groq",
+      "category": "Cloud Inference",
+      "level": "Advanced",
+      "details": ["Ultra-fast LLM inference", "Cloud API integration"],
+      "tools": ["Groq API", "LangChain Groq"],
+      "usedIn": ["3GPP RAG System"]
+    },
+    {
+      "name": "Vertex AI (Gemini)",
+      "category": "Cloud AI",
+      "level": "Advanced",
+      "details": ["Gemini models", "GCP AI platform", "Agent deployment"],
+      "tools": ["Vertex AI SDK", "Gemini API", "Google ADK"],
+      "usedIn": ["MeetIQ", "Financial Risk Agent", "Medical MCP Agent"]
+    },
+    {
+      "name": "Azure OpenAI",
+      "category": "Cloud AI",
+      "level": "Advanced",
+      "details": ["GPT models", "Embeddings", "Azure AI Search integration"],
+      "tools": ["Azure OpenAI SDK", "Azure AI Search", "LangChain Azure"],
+      "usedIn": ["KYC Platform"]
+    }
+  ],
+  "Backend": [
+    {
+      "name": "Python",
+      "category": "Language",
+      "level": "Advanced",
+      "details": ["Async programming", "Data pipelines", "RAG systems", "REST APIs"],
+      "tools": ["FastAPI", "Flask", "Pydantic", "asyncio", "httpx"],
+      "usedIn": ["All Projects"]
+    },
+    {
+      "name": "FastAPI",
+      "category": "Web Framework",
+      "level": "Advanced",
+      "details": ["Async REST APIs", "Background tasks", "Dependency injection"],
+      "tools": ["FastAPI", "Uvicorn", "Pydantic", "SQLAlchemy"],
+      "usedIn": ["MeetIQ", "NL2SQL Engine", "O-RAN Automation"]
+    },
+    {
+      "name": "Flask",
+      "category": "Web Framework",
+      "level": "Advanced",
+      "details": ["REST APIs", "Multi-model orchestration", "Backend services"],
+      "tools": ["Flask", "Flask-RESTful", "Gunicorn"],
+      "usedIn": ["KYC Platform", "3GPP RAG System"]
+    },
+    {
+      "name": "Async Programming",
+      "category": "Backend Pattern",
+      "level": "Advanced",
+      "details": ["asyncio", "Concurrent task handling", "Background workers"],
+      "tools": ["asyncio", "httpx", "APScheduler", "Celery"],
+      "usedIn": ["O-RAN Automation", "MeetIQ"]
+    }
+  ],
   "Databases": [
     {
-    "name": "Python",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "Java",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "C++",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  }],
-  "Tools": [
+      "name": "FAISS",
+      "category": "Vector Store",
+      "level": "Advanced",
+      "details": ["Vector indexing", "Similarity search", "Embedding storage"],
+      "tools": ["FAISS", "LangChain FAISS", "NumPy"],
+      "usedIn": ["3GPP RAG System"]
+    },
     {
-    "name": "Python",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "Java",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  },
-  {
-    "name": "C++",
-    "category": "Backend / AI",
-    "level": "Advanced",
-    "details": [
-      "FastAPI, Flask",
-      "Async programming",
-      "Data processing pipelines",
-      "RAG-based systems"
-    ],
-    "tools": ["FastAPI", "Flask", "Pydantic"],
-    "usedIn": ["Credimate", "KYC System"]
-  }]
+      "name": "ChromaDB",
+      "category": "Vector Store",
+      "level": "Advanced",
+      "details": ["Vector store", "Semantic retrieval", "Document embeddings"],
+      "tools": ["ChromaDB", "LangChain Chroma", "Sentence-Transformers"],
+      "usedIn": ["NL2SQL Engine"]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Relational DB",
+      "level": "Advanced",
+      "details": ["Relational data", "Background sync", "Structured queries"],
+      "tools": ["PostgreSQL", "SQLAlchemy", "psycopg2", "Alembic"],
+      "usedIn": ["MeetIQ", "NL2SQL Engine"]
+    },
+    {
+      "name": "MongoDB",
+      "category": "NoSQL",
+      "level": "Intermediate",
+      "details": ["NoSQL document store", "Flexible schema"],
+      "tools": ["MongoDB", "PyMongo", "Motor"],
+      "usedIn": ["Enterprise Projects"]
+    },
+    {
+      "name": "MySQL",
+      "category": "Relational DB",
+      "level": "Intermediate",
+      "details": ["Relational DB", "Query optimization"],
+      "tools": ["MySQL", "SQLAlchemy", "PyMySQL"],
+      "usedIn": ["Academic & Early Projects"]
+    }
+  ],
+  "Cloud": [
+    {
+      "name": "Google Cloud (GCP)",
+      "category": "Cloud Platform",
+      "level": "Advanced",
+      "details": ["Cloud Run", "GCS", "Vertex AI", "Cloud deployment"],
+      "tools": ["Cloud Run", "GCS", "Vertex AI SDK", "Docker", "gcloud CLI"],
+      "usedIn": ["MeetIQ", "Medical MCP Agent"]
+    },
+    {
+      "name": "Microsoft Azure",
+      "category": "Cloud Platform",
+      "level": "Advanced",
+      "details": ["Azure AI Document Intelligence", "Azure OpenAI", "Azure AI Search", "Azure Blob Storage"],
+      "tools": ["Azure SDK", "Azure AI Studio", "Azure CLI", "Blob Storage"],
+      "usedIn": ["KYC Platform"]
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "level": "Intermediate",
+      "details": ["Containerization", "Cloud Run deployment"],
+      "tools": ["Docker", "Docker Compose", "Cloud Run"],
+      "usedIn": ["MeetIQ"]
+    },
+    {
+      "name": "Git",
+      "category": "Version Control",
+      "level": "Advanced",
+      "details": ["Version control", "Collaborative development"],
+      "tools": ["Git", "GitHub"],
+      "usedIn": ["All Projects"]
+    }
+  ],
+  "Frontend": [
+    {
+      "name": "HTML",
+      "category": "Frontend",
+      "level": "Basic",
+      "details": ["Static pages", "Portfolio"],
+      "tools": ["HTML5", "CSS3"],
+      "usedIn": ["Portfolio", "Financial Risk Agent"]
+    },
+    {
+      "name": "JavaScript",
+      "category": "Frontend",
+      "level": "Basic",
+      "details": ["DOM manipulation", "Frontend scripting", "Fetch API"],
+      "tools": ["Vanilla JS", "ES6+"],
+      "usedIn": ["Portfolio"]
+    }
+  ]
 }

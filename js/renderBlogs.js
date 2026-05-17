@@ -19,10 +19,11 @@ export async function renderBlogs() {
     html += `
       <div class="blog-card fade-in" data-id="${blog.id}">
         <h3>${blog.title}</h3>
-        <p class="blog-meta">${blog.date}</p>
+        <p class="blog-meta">${blog.date}${blog.published === false ? ' · <em>Coming Soon</em>' : ''}</p>
         <p class="blog-summary">${blog.summary}</p>
-        <button class="read-more" data-id="${blog.id}">
-          Read →
+        ${blog.tags ? `<div class="project-tech">${blog.tags.map(t => `<span>${t}</span>`).join("")}</div>` : ""}
+        <button class="read-more" data-id="${blog.id}" ${blog.published === false ? 'disabled' : ''}>
+          ${blog.published === false ? 'Coming Soon' : 'Read →'}
         </button>
       </div>
     `;

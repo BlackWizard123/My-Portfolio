@@ -45,6 +45,14 @@ export async function renderFooter() {
             </a>
             </div>
         ` : ""}
+
+        ${data.location ? `
+            <div class="contact-secondary">
+            <a href="${data.location}">
+                ${data.location}
+            </a>
+            </div>
+        ` : ""}
         </div>
 
       </div>

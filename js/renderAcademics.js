@@ -13,7 +13,7 @@ export async function renderAcademics() {
         <div class="academics-timeline">
           ${academics.map((item, index) => `
             <div class="academic-row" data-index="${index}">
-              
+              <span class="timeline-dot"></span>
               <div class="academic-main">
                 <h3>${item.degree}</h3>
                 <p class="academic-institution">${item.institution}</p>

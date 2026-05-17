@@ -17,8 +17,9 @@ export async function renderProjects() {
 
   projects.forEach(project => {
     html += `
-      <div class="project-card fade-in" data-id="${project.id}">
+      <div class="project-card fade-in${project.highlight ? ' highlighted' : ''}" data-id="${project.id}">
         <h3>${project.title}</h3>
+        ${project.hackathon ? `<p class="blog-meta">🏆 ${project.hackathon.rank} — ${project.hackathon.name}</p>` : ""}
         <p class="project-desc">${project.description}</p>
 
         <div class="project-tech">
@@ -48,12 +49,11 @@ export async function renderProjects() {
 
         openModal(`
         <h2>${project.title}</h2>
-        <p>${project.description}</p>
-
-        <h3>Key Contributions</h3>
-        <ul>
-            ${project.details.map(d => `<li>${d}</li>`).join("")}
-        </ul>
+        ${project.hackathon ? `<div class="cert-meta-modal"><span class="cert-meta-pill">🏆 ${project.hackathon.rank} / ${project.hackathon.participants}</span><span class="cert-meta-pill">${project.hackathon.name}</span><span class="cert-meta-pill">${project.hackathon.prize}</span></div>` : ""}
+        <p>${project.longDescription || project.description}</p>
+        <div class="skills-modal-section"><h4>Tech Stack</h4><div class="modal-tags blue">${project.tech.map(t => `<span>${t}</span>`).join("")}</div></div>
+        ${project.github ? `<a href="${project.github}" target="_blank" class="cert-verify-btn">View on GitHub →</a>` : ""}
+        ${project.live ? `<a href="${project.live}" target="_blank" class="cert-verify-btn">Live Demo →</a>` : ""}
         `);
     });
     });

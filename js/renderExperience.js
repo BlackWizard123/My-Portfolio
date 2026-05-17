@@ -51,10 +51,12 @@ export async function renderExperience() {
 
       openModal(`
         <h2>${exp.role}</h2>
-        <p><strong>${exp.company}</strong> • ${exp.duration}</p>
-        <ul>
-          ${exp.highlights.map(h => `<li>${h}</li>`).join("")}
-        </ul>
+        <p><strong>${exp.company}</strong> • ${exp.duration} • ${exp.location || ""}</p>
+        <ul>${exp.highlights.map(h => `<li>${h}</li>`).join("")}</ul>
+        ${exp.techStack ? `<div class="skills-modal-section"><h4>Tech Stack</h4><div class="modal-tags blue">${exp.techStack.map(t => `<span>${t}</span>`).join("")}</div></div>` : ""}
+        ${exp.clients ? `<div class="skills-modal-section"><h4>Clients</h4><p>${exp.clients.join(" | ")}</p></div>` : ""}
+        ${exp.achievements ? `<div class="skills-modal-section"><h4>Achievements</h4><ul>${exp.achievements.map(a => `<li>${a}</li>`).join("")}</ul></div>` : ""}
+        ${exp.github ? `<a href="${exp.github}" target="_blank" class="cert-verify-btn">Check out my works →</a>` : ""}
       `);
     });
   });

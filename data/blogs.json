@@ -3,36 +3,27 @@
     "id": "rag-architecture",
     "title": "Designing a RAG Architecture for Large Documents",
     "date": "2025-01-10",
-    "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents."
+    "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents — covering chunking strategies, embedding models, retrieval routing, and prompt design.",
+    "tags": ["RAG", "LangChain", "Vector Search", "GenAI"],
+    "url": null,
+    "published": false
   },
   {
     "id": "kyc-genai",
-    "title": "Building a GenAI-powered KYC Pipeline",
+    "title": "Building a GenAI-powered KYC Pipeline on Azure",
     "date": "2025-01-05",
-    "summary": "How I designed an automated KYC and credibility analysis system using GenAI."
+    "summary": "How I designed and deployed an automated KYC and financial credibility analysis system using Azure AI Document Intelligence, Azure OpenAI, and hybrid vector retrieval — in 4 days.",
+    "tags": ["Azure", "GenAI", "KYC", "RAG", "FastAPI"],
+    "url": null,
+    "published": false
   },
   {
-    "id": "rag-architecture",
-    "title": "Designing a RAG Architecture for Large Documents",
-    "date": "2025-01-10",
-    "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents."
-  },
-  {
-    "id": "kyc-genai",
-    "title": "Building a GenAI-powered KYC Pipeline",
-    "date": "2025-01-05",
-    "summary": "How I designed an automated KYC and credibility analysis system using GenAI."
-  },
-  {
-    "id": "rag-architecture",
-    "title": "Designing a RAG Architecture for Large Documents",
-    "date": "2025-01-10",
-    "summary": "A practical breakdown of building a scalable RAG pipeline for large, unstructured documents."
-  },
-  {
-    "id": "credimate",
-    "title": "Building a GenAI-powered KYC Pipeline",
-    "date": "2025-01-05",
-    "summary": "How I designed an automated KYC and credibility analysis system using GenAI."
+    "id": "agentic-meeting-intelligence",
+    "title": "MeetIQ: Building an Agentic Meeting Intelligence System",
+    "date": "2025-03-01",
+    "summary": "How I built a multi-agent pipeline using LangGraph and Vertex AI to transform meeting transcripts into actionable tasks, summaries, and Google Calendar events — and placed Top 50 in an 18,000-participant APAC hackathon.",
+    "tags": ["LangGraph", "Vertex AI", "Agentic AI", "Google Cloud", "Hackathon"],
+    "url": null,
+    "published": false
   }
 ]

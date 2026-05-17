@@ -11,6 +11,10 @@ import { loadBlog } from "./blogLoader.js";
 import { renderLeetCode } from "./renderLeetcode.js";
 import { renderAcademics } from "./renderAcademics.js";
 
+// Apply saved theme immediately to avoid flash
+const savedTheme = localStorage.getItem("theme") || "dark";
+document.documentElement.setAttribute("data-theme", savedTheme);
+
 document.addEventListener("DOMContentLoaded", () => {
   renderNavbar();
   renderHero();
@@ -26,13 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const backToTop = document.getElementById("backToTop");
+const themeToggle = document.getElementById("themeToggle");
+
+// Set correct icon on load
+themeToggle.textContent = savedTheme === "dark" ? "☀️" : "🌙";
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
-    backToTop.classList.add("show");
-  } else {
-    backToTop.classList.remove("show");
-  }
+  const visible = window.scrollY > 300;
+  backToTop.classList.toggle("show", visible);
+  themeToggle.classList.toggle("show", visible);
 });
 
 backToTop.addEventListener("click", () => {
@@ -40,6 +46,14 @@ backToTop.addEventListener("click", () => {
     top: 0,
     behavior: "smooth"
   });
+});
+
+themeToggle.addEventListener("click", () => {
+  const current = document.documentElement.getAttribute("data-theme");
+  const next = current === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem("theme", next);
+  themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
 });
 
 
@@ -74,30 +88,62 @@ document.addEventListener("click", (e) => {
   }, 3000);
 });
 
-const navigator = document.querySelector(".section-navigator");
+const sectionNavigator = document.querySelector(".section-navigator");
 let closeTimeout;
 
 function openNavigator() {
   clearTimeout(closeTimeout);
-  navigator.classList.add("open");
+  sectionNavigator.classList.add("open");
 }
 
 function closeNavigatorDelayed() {
   closeTimeout = setTimeout(() => {
-    navigator.classList.remove("open");
+    sectionNavigator.classList.remove("open");
   }, 500); // 1 second delay
 }
 
-navigator.addEventListener("mouseenter", openNavigator);
-navigator.addEventListener("mouseleave", closeNavigatorDelayed);
+sectionNavigator.addEventListener("mouseenter", openNavigator);
+sectionNavigator.addEventListener("mouseleave", closeNavigatorDelayed);
 
 window.addEventListener("DOMContentLoaded", () => {
 
-  const elements = document.querySelectorAll(".fade-up");
-
+  // ── 1. Instant show for top-level section wrappers (fade-up) ──
+  const fadeUpEls = document.querySelectorAll(".fade-up");
   setTimeout(() => {
-    elements.forEach(el => el.classList.add("show"));
+    fadeUpEls.forEach(el => el.classList.add("show"));
   }, 300);
+
+  // ── 2. Scroll-reveal for individual elements inside sections ──
+  const revealSelectors = ".fade-in, .reveal-left, .reveal-right, .reveal-scale, .stagger-children";
+
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+
+      const el = entry.target;
+      el.classList.add("visible");
+
+      // Staggered children
+      if (el.classList.contains("stagger-children")) {
+        [...el.children].forEach((child, i) => {
+          child.style.transitionDelay = `${i * 90}ms`;
+        });
+      }
+
+      revealObserver.unobserve(el); // animate once
+    });
+  }, {
+    threshold: 0.12,
+    rootMargin: "0px 0px -60px 0px"
+  });
+
+  // Observe elements already in the DOM
+  document.querySelectorAll(revealSelectors).forEach(el => revealObserver.observe(el));
+
+  // Re-observe after render modules inject HTML
+  setTimeout(() => {
+    document.querySelectorAll(revealSelectors).forEach(el => revealObserver.observe(el));
+  }, 600);
 
 });
 
