@@ -1,7 +1,14 @@
 {
   "name": "Hariharan C",
-  "role": "Associate Software Engineer",
-  "headline": "Building GenAI-powered document intelligence systems and scalable backend platforms.  Building GenAI-powered document intelligence systems and scalable backend platforms.Building GenAI-powered document intelligence systems and scalable backend platforms, Building GenAI-powered document intelligence systems and scalable backend platforms,Building GenAI-powered document intelligence systems and scalable backend platforms.Building GenAI-powered document intelligence systems and scalable backend platforms",
+  "role": "Agentic AI Engineer & Python Backend Developer",
+  "headline": "Building production-grade Agentic RAG systems, multi-agent LLM workflows, and scalable async Python backends for real-world telecom automation.",
+  "about": "I'm an Agentic AI Engineer with 2+ years building production RAG systems, multi-agent LLM workflows, and scalable async Python backends for telecom automation. Specialized in LangChain, LangGraph, FastAPI, and hybrid cloud/on-prem LLM inference. Delivered 45% reduction in manual effort, 35% latency improvement, and ranked in top placements at three major AI hackathons across Google and Microsoft.",
+  "avatar": "assets/profile/avatar.jpg",
+  "location": "Bangalore, India",
   "ctaPrimary": "View Projects",
-  "ctaSecondary": "Download Resume"
+  "ctaSecondary": "Download Resume",
+  "resumeUrl": "assets/resume/Hariharan_C_Resume.pdf",
+  "available": true
 }
+
+

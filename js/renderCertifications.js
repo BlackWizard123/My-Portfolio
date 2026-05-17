@@ -55,10 +55,9 @@ function buildCertificationModal(cert) {
 
       <h2 class="cert-title">${cert.title}</h2>
 
-      ${cert.provider ? `
+      ${cert.providerAbout ? `
         <p class="cert-provider">
-          <strong>${cert.issuer}</strong>
-          ${cert.providerAbout ? ` – ${cert.providerAbout}` : ""}
+          <strong>${cert.issuer}</strong> – ${cert.providerAbout}
         </p>
       ` : ""}
 
@@ -96,12 +95,13 @@ function buildCertificationModal(cert) {
 
       <!-- Verification -->
       ${cert.certificateUrl ? `
-        <a
-          href="${cert.certificateUrl}"
-          target="_blank"
-          class="cert-verify-btn"
-        >
+        <a href="${cert.certificateUrl}" target="_blank" class="cert-verify-btn">
           Verify Certificate →
+        </a>
+      ` : ""}
+      ${cert.credlyUrl ? `
+        <a href="${cert.credlyUrl}" target="_blank" class="cert-verify-btn">
+          View on Credly →
         </a>
       ` : ""}
 

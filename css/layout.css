@@ -76,8 +76,20 @@ footer {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .skill-card {
@@ -469,15 +481,25 @@ section:not(:first-child)::before {
   padding: 3rem 2rem;
   border-radius: 14px;
   text-align: center;
-} 
+  border: 1px solid rgba(56, 189, 248, 0.08);
+}
 
 .section-box-moments {
   background: rgba(255, 255, 255, 0.03);
   padding: 3rem 2rem;
   border-radius: 14px;
   overflow: visible;
+  border: 1px solid rgba(56, 189, 248, 0.08);
   /* text-align: center; */
-} 
+}
+
+/* Light mode: give section boxes a visible soft tint */
+html:not([data-theme="dark"]) .section-box,
+html:not([data-theme="dark"]) .section-box-moments {
+  background: rgba(2, 132, 199, 0.05);
+  border: 1px solid rgba(2, 132, 199, 0.15);
+  box-shadow: 0 4px 24px rgba(2, 132, 199, 0.07);
+}
 
 nav a {
   position: relative;
@@ -960,11 +982,172 @@ nav a:hover::after {
   margin-top: 0.5rem;
   font-size: 1.2rem;
   color: var(--muted);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 
 .hero-headline {
   margin-top: 1.5rem;
+  color: #4372da;
+  font-family: system-ui;
+  font-weight: 700;
+}
+
+/* Availability badge */
+.hero-available {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  margin-bottom: 1.2rem;
+}
+
+.hero-available-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: pulse-dot 2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5); }
+  50%       { box-shadow: 0 0 0 5px rgba(34, 197, 94, 0); }
+}
+
+/* Location */
+.hero-location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.hero-location-icon {
+  font-size: 0.95rem;
+}
+
+/* Availability badge — sits below location */
+.hero-available {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  margin-top: 0.75rem;
+}
+
+.hero-available-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: pulse-dot 2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5); }
+  50%       { box-shadow: 0 0 0 5px rgba(34, 197, 94, 0); }
+}
+
+/* About text */
+.hero-about {
+  margin-top: 1.25rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.75;
+  max-width: 560px;
+}
+
+/* Typewriter cursor blink */
+.hero-role-cursor {
+  display: inline-block;
+  margin-left: 1px;
+  color: var(--accent);
+  animation: blink-cursor 0.75s step-end infinite;
+}
+
+@keyframes blink-cursor {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* CTA buttons */
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.75rem;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  padding: 0.65rem 1.5rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  text-decoration: none;
+}
+
+.hero-btn-primary {
+  background: linear-gradient(135deg, var(--accent), #a855f7);
+  color: #fff;
+}
+
+.hero-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(56, 189, 248, 0.4);
+  color: #fff;
+}
+
+.hero-btn-secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+}
+
+.hero-btn-secondary:hover {
+  background: rgba(56, 189, 248, 0.08);
+  transform: translateY(-2px);
+  color: var(--accent);
+}
+
+/* ── Navbar inline theme toggle ─────────────────────── */
+.nav-theme-toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: var(--surface);
   color: var(--text);
+  font-size: 1rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  flex-shrink: 0;
+}
+
+.nav-theme-toggle:hover {
+  background: rgba(56, 189, 248, 0.12);
+  transform: rotate(20deg) scale(1.1);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.25);
 }
 
 /* Mobile */
@@ -980,6 +1163,21 @@ nav a:hover::after {
 
   .hero-photo {
     margin-top: 2rem;
+  }
+
+  .hero-available,
+  .hero-location {
+    justify-content: center;
+  }
+
+  .hero-about {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .hero-actions {
+    justify-content: center;
   }
 }
 
@@ -1190,8 +1388,14 @@ nav a:hover::after {
   border-radius: 14px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  border: 1px solid rgba(56, 189, 248, 0.15);
+}
 
-  border: 1px solid rgba(255,255,255,0.06);
+/* Light mode: give modal cards a visible surface */
+html:not([data-theme="dark"]) .skills-modal-card {
+  background: rgba(2, 132, 199, 0.05);
+  border: 1px solid rgba(2, 132, 199, 0.2);
+  box-shadow: 0 2px 12px rgba(2, 132, 199, 0.07);
 }
 
 /* Header row */
@@ -1678,13 +1882,24 @@ nav a:hover::after {
   align-items: center;
 
   border-radius: 14px;
-  overflow: hidden; /* Necessary for the bottom line ::after */
+  /* overflow:hidden removed — it was clipping ::before glow and ::after bottom bar */
   cursor: pointer;
 }
 
-/* Specific Timeline Dot (Keep this here) */
-.academic-row::before {
-  content: "";
+/* Clip only the bottom accent bar via a pseudo-wrapper */
+.academic-row::after {
+  border-radius: 0 0 14px 14px;
+
+/* Experience rows are a bit taller to accommodate the logo */
+.experience-row {
+  padding: 1.6rem 1.2rem 1.6rem 2.5rem;
+  gap: 1.25rem;
+}
+  overflow: hidden;
+}
+
+/* Specific Timeline Dot */
+.academic-row .timeline-dot {
   position: absolute;
   left: 12px;
   top: 50%;
@@ -1693,11 +1908,12 @@ nav a:hover::after {
   height: 10px;
   border-radius: 50%;
   background: var(--accent);
-  z-index: 5; /* Sit above the glow layer */
+  z-index: 5;
   transition: box-shadow 0.3s ease;
+  flex-shrink: 0;
 }
 
-.academic-row:hover::before {
+.academic-row:hover .timeline-dot {
   box-shadow: 0 0 12px var(--accent);
 }
 
@@ -1835,7 +2051,7 @@ nav a:hover::after {
 .section-navigator {
   position: fixed;
   right: 24px;
-  bottom: 100px; /* above your top button */
+  bottom: 160px; /* above backToTop + themeToggle stack */
   z-index: 1000;
 }
 
@@ -2006,10 +2222,42 @@ nav a:hover::after {
   color: var(--bg);
 }
 
+/* ─── Theme Toggle Button ────────────────────────── */
+#themeToggle {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 5.5rem; /* stacked above #backToTop (1.5rem + 44px + ~12px gap) */
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, var(--accent), #a855f7);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
 
+  display: grid;
+  place-items: center;
 
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
 
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 
+  z-index: 999;
+}
 
+#themeToggle.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
 
-
+#themeToggle:hover {
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.5);
+  transform: translateY(-2px);
+}
