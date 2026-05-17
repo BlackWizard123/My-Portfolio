@@ -2261,3 +2261,44 @@ html:not([data-theme="dark"]) .skills-modal-card {
   box-shadow: 0 10px 30px rgba(56, 189, 248, 0.5);
   transform: translateY(-2px);
 }
+
+/* Nav right group — wraps "Updated" label + theme toggle */
+.nav-right-group {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+/* "Updated May 2026" label */
+.nav-last-updated {
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: nowrap;
+  opacity: 0.75;
+  letter-spacing: 0.3px;
+}
+
+/* Circular theme toggle button in navbar */
+.nav-theme-toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  flex-shrink: 0;
+}
+
+.nav-theme-toggle:hover {
+  background: rgba(56, 189, 248, 0.12);
+  transform: rotate(20deg) scale(1.1);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.25);
+}
+
